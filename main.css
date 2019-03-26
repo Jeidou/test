@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    height: 50px;
+    background: #34495e;
+    padding: 20px;
+}
+
+.logo{
+    line-height: 50px;
+    float: left;
+    text-transform: uppercase;
+    margin-left: 100px;
+    color: #2ecc71;
+}
+
+.menu{
+    float: right;
+    line-height: 50px;
+}
+
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+.menu a:hover{
+    color: #2ecc71;
+    transition: 0.25s;
+}
+
+.main-image{
+    background: url(study.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 540px;
+    overflow: auto;
+}
+
+.button{
+    background: #2ecc71;
+    color: #fff;
+    border-radius: 15px;
+    display: block;
+    width: 250px;
+    padding: 20px 0;
+    margin: 180px auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button:hover{
+    color:#34495e;
+    transition: 0.25s;
+}
+
+footer{
+    background: #34495e;
+    color: white;
+    height: 25px;
+    text-align: center;
+    padding: 15px;
+}
